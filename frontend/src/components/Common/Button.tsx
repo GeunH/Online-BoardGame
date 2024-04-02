@@ -1,14 +1,14 @@
-interface ButtonProps{
+interface ButtonProps {
   text: string;
   onClick: () => void;
 }
 
 const Button = ({ text, onClick }: ButtonProps) => {
   return (
-    <button onClick={onClick}>
+    <button className="btn" onClick={onClick}>
       {text}
     </button>
-  )
-}
+  );
+};
 
 export default Button;
