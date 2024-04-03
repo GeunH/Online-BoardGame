@@ -1,5 +1,5 @@
-import Button from '../components/Common/Button';
-import Header from '../components/Common/Header';
+import Button from '@components/Common/Button';
+import Header from '@components/Common/Header';
 
 const Register = () => {
   return (
