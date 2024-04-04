@@ -3,7 +3,7 @@ import Button from '@components/Common/Button';
 const Header = () => {
   return (
     <div className="flex w-full items-center justify-between px-36 py-4">
-      <text>온라인 보드게임</text>
+      <p>온라인 보드게임</p>
       <Button
         text="로그인"
         onClick={() => {
