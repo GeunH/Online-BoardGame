@@ -33,4 +33,12 @@ public class User {
     @Column(length = 10) 
     private String status;
 
+    public User(String email, String password, String provider, String nickname) {
+        this.email = email;
+        this.password = password;
+        this.provider = provider;
+        this.nickname = nickname;
+        this.joinDate = LocalDate.now();
+        this.status = "active";
+    }
 }
