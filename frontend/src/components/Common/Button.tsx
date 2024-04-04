@@ -5,7 +5,7 @@ interface ButtonProps {
 
 const Button = ({ text, onClick }: ButtonProps) => {
   return (
-    <button className="btn" onClick={onClick}>
+    <button className="btn truncate whitespace-nowrap" onClick={onClick}>
       {text}
     </button>
   );
